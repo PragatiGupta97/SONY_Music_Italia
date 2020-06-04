@@ -37,4 +37,4 @@ Execution requires to open the transformation file "trans_neat_fetch.ktr" and mo
 Execute the Job and wait for it to complete. Generally 15 to 20 minutes are required to fetch the data depending on connection bandwidth.
 
 ## Machine Learning Algo
-Finally, open the "Sony_Classification.ipynb" file replace the input file path and run the algorithm
+Finally, open the "Sony_Classification.ipynb" file replace the input file path and run the algorithm. There is a input file already presend under the directory Pentaho ETL/Output. In case of using existing file ETL step is optional.
