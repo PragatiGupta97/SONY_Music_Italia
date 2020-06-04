@@ -11,14 +11,20 @@ Authentication is written in NodeJs and requires nodejs to be present in the hos
 
 Required libraries can be simply installed by running following command while the cursor is at the "Spotify Token Fetcher" directory.
 
+```
 npm install
+```
 
 After the installation is finished. One can simple hope in the directory "authorization_code" and run following command:
 
+```
 node app.js
+```
 
 This should start a NodeJs server and once the server is running successfully simply visit [Link](https://localhost:8888)
 
 Login at the page and copy the Token. You would need this token to authenticate.
+
+## Running The ETL Job
 
 Code to classify the tracks
