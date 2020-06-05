@@ -31,7 +31,7 @@ In case you want to fetch data. Here Pentaho Data Integration tool is required t
 Execution requires to open the transformation file "trans_neat_fetch.ktr" and modify following steps in the transformation with needed values:
 1. In "CSV file input" step modify the path of Sample Track Ids/unpopular.csv
 2. In "CSV file input 2" step modify the path of Sample Track Ids/popular.csv
-3. in "Add Authentication" step modify the value of Authorization field with "Bearer <Token>"
+3. in "Add Authentication" step modify the value of Authorization field with "Bearer `Token`"
 4. In "Text file output 2" step modify the path where you want to output the file.
 
 Execute the Job and wait for it to complete. Generally 15 to 20 minutes are required to fetch the data depending on connection bandwidth.
